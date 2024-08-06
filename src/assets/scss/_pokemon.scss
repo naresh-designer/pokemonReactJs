@@ -1,0 +1,63 @@
+h1{
+    font-weight: $fontWeight;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid $color;
+}
+// .card{
+//     background-color: $color;
+//     padding:20px;
+//     color: $colorBlack;
+//     text-align: center;
+//     transition: all .5s;
+//     scale: .8;
+//     opacity: .5;
+//     animation: fade-in linear forwards;
+//     transform-origin: bottom;
+//     animation-timeline: view();
+//     animation-range: entry;
+// }
+// @keyframes fade-in{
+//     to{
+//         scale: 1;
+//         opacity: 1;
+//     }
+// }
+.card{
+    background-color: $color;
+    padding:20px;
+    color: $colorBlack;
+    text-align: center;
+    transition: all .5s;
+}
+.card:hover{
+    transform: scale(.97);
+}
+.card .card_children:hover{
+
+    filter: blur(0);
+    transform: scale(1);
+}
+.inputSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inputSearch input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: $font;
+}
+.card__img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.card__heading{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+}

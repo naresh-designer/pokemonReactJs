@@ -1,0 +1,29 @@
+
+@import '../src/assets/scss/variable.scss';
+@import '../src/assets/scss/pokemon.scss';
+
+body{
+    background: $colorBlack;
+    font-family: $font;
+    font-size: $fontSize;
+    color: $color;
+    font-weight: $fontWeight;
+}
+::placeholder{
+    font-family: $font;
+    font-size: 20px;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.grid{
+    display: $grid;
+    gap:$gap;
+}
+
+.grid_four{
+    grid-template-columns: $gridFourColumn;
+}
